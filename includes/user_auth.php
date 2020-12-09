@@ -1,5 +1,7 @@
 <?php
 
+// !!!!fix and implement before release!!!
+
 function admin_list_user_auth(){
  /* User authentication and permission check */    
     // Don't show for logged out users or single site mode.

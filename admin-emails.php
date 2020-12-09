@@ -13,12 +13,9 @@ defined( 'ABSPATH' ) || exit;
 define( 'ADMIN_LIST', __FILE__ );
 define( 'ADMIN_LIST_DIR', untrailingslashit( dirname( ADMIN_LIST ) ) );
 
-//call in user authentication
-//require ADMIN_LIST_DIR.'/includes/user_auth.php';
-
 //call in Custom API routes
 require ADMIN_LIST_DIR.'/includes/api_custom_route.php';
 
 
 //call in custom admin page
-//require ADMIN_LIST_DIR.'/includes/user_list_gen.php';
+require ADMIN_LIST_DIR.'/includes/user_list_gen.php';
